@@ -5,6 +5,8 @@ import Menu from "./pages/Menu";
 import ImgPicker from "./pages/ImagePicker";
 import Camera from "./pages/Camera";
 import Location from "./pages/Location";
+import List from './pages/List'
+import Cadastro from './pages/Cadastro'
 
 export default createAppContainer(
   createStackNavigator(
@@ -13,7 +15,9 @@ export default createAppContainer(
       Menu,
       ImgPicker,
       Camera,
-      Location
+      Location,
+      List,
+      Cadastro
     },
     {
       defaultNavigationOptions: {
